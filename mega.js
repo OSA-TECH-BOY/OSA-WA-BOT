@@ -1,11 +1,7 @@
 import * as mega from 'megajs';
 
 // Mega authentication credentials
-const auth = {
-    email: 'abc@gmail.com', // Replace with your Mega email
-    password: 'abc@1234!', // Replace with your Mega password
-    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246'
-};
+k49gblI6txA3DfaaQ5B97afndaMpYggPktM/9i+wSrImI9WXjkadhu3fAMbYuS+BVjxTpKdCN8+EYzvGcqcqs5qDG46rYelpGFzsrjTwYIBYvxx94dJPQiFKXDfSfAxRYdZJq8fCIRrpKdoybUjHINksw89sKXykt+H8Klp3fw6RczV9RjmGYrzmjAqX3apc1X0CbEmpg1VSL6AyeeDopSi/tVMyu6rk+hgrBaFunwlEoLyeZls1FGIW7bSqEUNat2ygibm2ormT7YVG0fFjl4/WblEtIF40G5kXp1tr7TrUOEs4IftQWzn4bmAOMnLqe8rHzJvwLOuHGbKsnOFhgKpHgLC2BG9UMoHu66otITo4TyLyfU93hRckWEktBhDTttB7Y90kbT8F5rmbzMtF4A==
 
 // Function to upload a file to Mega and return the URL
 export const upload = (data, name) => {
